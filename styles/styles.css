@@ -1,0 +1,228 @@
+html {
+  background-color: grey;
+}
+
+body {
+  margin: 0 auto;
+  width: 1024px;
+  background-color: var(--main_color);
+}
+
+:root {
+  --main_color: #ffffff;
+  --second_color: #000000;
+  --decor_color: #ff6b08;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.aside {
+  color: var(--main_color);
+  /*background-color: #007788;*/
+  background-color: #005B70;
+  width: 30%;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main {
+  width: 70%;
+}
+
+.photo {
+  border-radius: 50%;
+  padding-bottom: 17px;
+}
+
+.link {
+  color: var(--main_color);
+}
+
+.link::before {
+  display: block;
+  content: '';
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: var(--main_color);
+  position: absolute;
+  left: -30px;
+}
+
+.tel::before {
+  background-image: url(../img/phone.svg);
+}
+
+.mail::before {
+  background-image: url(../img/mail.svg);
+}
+
+.github::before {
+  background-image: url(../img/github.svg);
+}
+
+.linkedin::before {
+  background-image: url(../img/linkedin.svg);
+}
+
+.telegram::before {
+  background-image: url(../img/telegram.svg);
+}
+
+.town::before {
+  background-image: url(../img/location.svg);
+}
+
+.conatcts__item {
+  position: relative;
+}
+
+.conatcts__list {
+  padding-left: 20px;
+}
+
+.section_wrapper {
+  padding-bottom: 30px;
+}
+
+.item {
+  margin-bottom: 10px;
+}
+
+.title {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.tech-skills__item,
+.soft-skills__item,
+.hard-skills__item,
+.languages__item,
+.duties__item{
+  list-style: square;
+  color: var(--decor_color);
+}
+
+.item-text {
+  color: var(--main_color);
+}
+
+.main-item-text {
+  color: var(--second_color);
+}
+
+.main {
+  padding: 40px;
+}
+
+.head-title__section {
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+.position__title {
+  font-size: 24px;
+}
+
+.position {
+  padding-bottom: 30px;
+}
+
+.main-title {
+  color: var(--decor_color);
+  margin-bottom: 10px;
+}
+
+.project__link {
+  text-decoration: underline;
+  color: blue;
+}
+
+.mdb-link {
+  text-decoration: underline;
+  color: var(--second_color);
+}
+
+.project-exp__item {
+  margin-bottom: 10px;
+}
+
+.main-section {
+  padding-bottom: 26px;
+}
+
+.pet-experience__title,
+.pet-experience__link,
+.pet-experience__item,
+.education__item-style,
+.work-experience__item,
+.duties__item{
+  line-height: 24px;
+  font-size: 18px;
+}
+.work-experience__city,
+.work-experience__dates{
+  font-style: italic;
+}
+
+.project__title {
+  line-height: 25px;
+}
+
+.duties {
+  list-style: square;
+  
+}
+
+.education__item {
+  margin-bottom: 10px;
+}
+
+.certificate__link {
+  color: black;
+}
+
+.additional-info {
+  font-weight: normal;
+}
+
+.pet-experience__link > a{
+  color: #000000;
+}
+
+.pet-experience__link{
+  margin-bottom: 30px;
+}
+
+.pet__duties {
+  margin-bottom: 10px;
+}
+
+.duties_wrapper{
+  margin-left: 15px;
+}
+.skills_wrapper{
+  margin-left: 10px;
+}
+
+.skills {
+  width: 50px;
+  display: inline-block;
+  text-align: right; /* Right-align text */
+  padding-top: 5px; /* Add top padding */
+  padding-bottom: 5px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+.gained{
+  background-color: #ff6b08;
+}
+
+.not_gained{
+  background-color: #ddd;
+}
