@@ -12,6 +12,8 @@ body {
   --main_color: #ffffff;
   --second_color: #000000;
   --decor_color: #ff6b08;
+  --second_decor_color: #ddd;
+  /*--decor_color: darkgreen;*/
 }
 
 .wrapper {
@@ -35,7 +37,9 @@ body {
 
 .photo {
   border-radius: 50%;
-  padding-bottom: 17px;
+  /*padding-bottom: 17px;*/
+  background-color: var(--second_decor_color);
+  /*border: solid var(--second_color);*/
 }
 
 .link {
@@ -220,9 +224,13 @@ body {
   color: white; /* White text color */
 }
 .gained{
-  background-color: #ff6b08;
+  background-color: var(--decor_color);
 }
 
 .not_gained{
-  background-color: #ddd;
+  background-color: var(--second_decor_color);
+}
+
+.conatcts__title{
+  margin-top: 17px;
 }
