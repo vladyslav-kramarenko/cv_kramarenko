@@ -38,8 +38,9 @@ body {
 .photo {
   border-radius: 50%;
   /*padding-bottom: 17px;*/
-  background-color: var(--second_decor_color);
-  /*border: solid var(--second_color);*/
+  background-color: var(--main_color);
+  /*border: solid var(--main_color);*/
+  border: solid var(--main_color);
 }
 
 .link {
