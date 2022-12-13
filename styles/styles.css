@@ -25,6 +25,7 @@ body {
   /*background-color: #007788;*/
   background-color: #005B70;
   width: 30%;
+  padding-left: 10px;
   padding-top: 30px;
   display: flex;
   flex-direction: column;
@@ -45,6 +46,11 @@ body {
 
 .link {
   color: var(--main_color);
+}
+
+.main__link {
+  color: var(--second_color);
+  text-decoration: underline 1px;
 }
 
 .link::before {
@@ -84,12 +90,16 @@ body {
   background-image: url(../img/location.svg);
 }
 
-.conatcts__item {
+.contacts__item {
   position: relative;
 }
 
-.conatcts__list {
+.contacts__list{
   padding-left: 20px;
+}
+
+.course__dates{
+  color: var(--main_color);
 }
 
 .section_wrapper {
@@ -105,9 +115,14 @@ body {
   color: #fff;
 }
 
+.course__link{
+  text-decoration: underline 1px;
+}
+
 .tech-skills__item,
 .soft-skills__item,
 .hard-skills__item,
+.courses__item,
 .languages__item,
 .duties__item{
   list-style: square;
@@ -172,7 +187,8 @@ body {
   font-size: 18px;
 }
 .work-experience__city,
-.work-experience__dates{
+.course__dates,
+.work-experience__info{
   font-style: italic;
 }
 
@@ -211,8 +227,10 @@ body {
 
 .duties_wrapper{
   margin-left: 15px;
+  margin-bottom: 10px;
 }
-.skills_wrapper{
+.skills_wrapper,
+.courses_wrapper{
   margin-left: 10px;
 }
 
